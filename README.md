@@ -18,27 +18,77 @@ Follow this guide top to bottom — no other docs required.
 ## Prerequisites
 
 - [OpenRouter](https://openrouter.ai) account and API key (powers both prompt writing and video rendering)
-- [Docker](https://docs.docker.com/get-docker/) with Docker Compose v2
-- A modern browser
 
 ---
 
 ## Setup
 
-### 1. Clone the repo
+These steps work on **Windows**, **macOS**, and **Linux**. Open a terminal in the project folder when commands are shown:
+
+| OS | Terminal |
+|----|----------|
+| **Windows** | [PowerShell](https://learn.microsoft.com/en-us/powershell/) or [WSL](https://learn.microsoft.com/en-us/windows/wsl/) (recommended with Docker Desktop) |
+| **macOS** | Terminal or iTerm |
+| **Linux** | Your distro’s default terminal |
+
+### 1. Install Docker
+
+You need Docker with Compose v2 (`docker compose`). Install for your OS, then confirm it works (see below).
+
+**Windows**
+
+1. Install [Docker Desktop for Windows](https://docs.docker.com/desktop/setup/install/windows-install/).
+2. Use the **WSL 2** backend when prompted (recommended).
+3. Launch **Docker Desktop** and wait until it reports the engine is running.
+
+**macOS**
+
+1. Install [Docker Desktop for Mac](https://docs.docker.com/desktop/setup/install/mac-install/) — pick **Apple Silicon** or **Intel** to match your Mac.
+2. Open **Docker Desktop** and wait until the engine is running.
+
+**Linux**
+
+1. Follow the [Docker Engine install guide](https://docs.docker.com/engine/install/) for your distribution.
+2. Start Docker and allow your user to run it without `sudo`:
+
+```bash
+sudo systemctl enable --now docker
+sudo usermod -aG docker $USER
+# log out and back in (or run: newgrp docker) so the group change applies
+```
+
+**All platforms** — confirm Docker is working:
+
+```bash
+docker --version
+docker compose version
+docker run --rm hello-world
+```
+
+### 2. Clone the repo
 
 ```bash
 git clone https://github.com/bfrs/Frames video_interface
 cd video_interface
 ```
 
-### 2. Add your API key
+([Git for Windows](https://git-scm.com/download/win) includes Git Bash if you don’t have `git` yet.)
+
+### 3. Add your API key
+
+Create `.env` from the example:
 
 ```bash
+# macOS, Linux, Git Bash, WSL
 cp .env.example .env
 ```
 
-Edit `.env` and set your key:
+```powershell
+# Windows PowerShell
+Copy-Item .env.example .env
+```
+
+Edit `.env` in any text editor (Notepad, VS Code, nano, etc.) and set your key:
 
 ```env
 OPENROUTER_API_KEY=sk-or-v1-...
@@ -48,28 +98,45 @@ Other variables in `.env.example` are optional and have sensible defaults.
 
 > Never commit `.env`. The browser never sees your API key — all OpenRouter calls go through the Flask backend.
 
-### 3. Start with Docker
+### 4. Build and run
+
+From the project root:
 
 ```bash
 docker compose up --build -d
 ```
 
-Open **http://localhost:7860/**
+The first build may take a few minutes. When the container is healthy, open **http://localhost:7860/** in your browser.
+
+Check status:
+
+```bash
+docker compose ps
+```
+
+Verify the API (any one of these):
+
+```bash
+# macOS, Linux, WSL, Git Bash — also Windows 10+ PowerShell/cmd
+curl http://localhost:7860/api/config
+```
+
+```powershell
+# Windows PowerShell (if curl is unavailable)
+Invoke-WebRequest http://localhost:7860/api/config
+```
+
+Or open **http://localhost:7860/api/config** in your browser — you should see JSON.
 
 Useful commands:
 
 ```bash
 docker compose logs -f    # follow logs
-docker compose down       # stop
+docker compose down       # stop and remove containers
+docker compose up --build -d   # rebuild after code or .env changes
 ```
 
-To use a different host port, set `PORT` in `.env` (e.g. `PORT=8080`) and restart.
-
-Verify the backend:
-
-```bash
-curl http://localhost:7860/api/config
-```
+To use a different host port, add `PORT=8080` to `.env` and restart (`docker compose down` then `docker compose up --build -d`). The app inside the container always listens on **7860**; Compose maps your host port to that.
 
 ---
 
@@ -101,6 +168,9 @@ One OpenRouter key routes to all models — no separate provider accounts needed
 
 | Symptom | Fix |
 |---------|-----|
+| `Cannot connect to the Docker daemon` | **Windows / macOS:** open Docker Desktop and wait until it is running. **Linux:** `sudo systemctl start docker` |
+| `permission denied` on `docker` | **Linux:** `sudo usermod -aG docker $USER`, then log out and back in. **Windows / macOS:** restart Docker Desktop |
+| WSL / virtualization errors (Windows) | Enable [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install) and virtualization in BIOS; reinstall Docker Desktop with the WSL 2 backend |
 | `OPENROUTER_API_KEY must be set` | Add your key to `.env` and run `docker compose up --build -d` again |
 | Prompt generation fails | Check `TEXT_GEN_MODEL` exists on OpenRouter and you have credits |
 | Reel stuck on "processing" | Wait; check `docker compose logs -f` |
