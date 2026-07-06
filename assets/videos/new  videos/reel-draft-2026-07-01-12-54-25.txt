@@ -1,0 +1,37 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T12:54:25.141Z
+Video model: alibaba/wan-2.7
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Duration: 10 seconds
+API cost (INR): ₹83.00
+Job ID: W2jn3nTGMEoMSY0o6SL3
+Video source: /api/reel-video/W2jn3nTGMEoMSY0o6SL3
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Style / aesthetic: Premium
+Duration (seconds): 10
+Video model: alibaba/wan-2.7
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Reference image count: 0
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+(Not available — prompt was typed manually or steeraway analysis was not run.)
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+Ultra realistic Indian female influencer, age 25, natural wheatish skin tone, handheld iPhone selfie camera, standing inside a modern Indian bedroom with warm morning sunlight. Speaking directly to camera with authentic expressions.
+
+Dialogue:
+"Guys, I've been using this serum for just 7 days and honestly I wasn't expecting much, but look at my skin. It's glowing and feels so hydrated."
+
+Natural hand gestures, subtle head movement, slight smile, realistic blinking, casual Gen-Z Indian fashion, no makeup look, shallow depth of field, authentic UGC style, vertical 9:16, realistic smartphone video, slight handheld shake.

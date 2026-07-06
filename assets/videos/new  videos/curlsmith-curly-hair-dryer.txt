@@ -1,0 +1,78 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T08:13:52.683Z
+Video model: google/veo-3.1
+Format: 16:9 Landscape
+Aspect ratio: 16:9
+Duration: 8 seconds
+API cost (INR): ₹265.60
+Job ID: qeRryGEnOYTo0uW1yxkJ
+Video source: /api/reel-video/qeRryGEnOYTo0uW1yxkJ
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: Curlsmith Curly Hair Dryer
+Target audience: Young shoppers
+Style / aesthetic: UGC
+Key message: Curlsmith's Defrizzion Technology
+Duration (seconds): 8
+Video model: google/veo-3.1
+Format: 16:9 Landscape
+Aspect ratio: 16:9
+Reference image count: 1
+Reference images: 4L7A2591-Edit-2-2000x2000_4567f7ae-703a-4df3-af36-c567ae37cf04.webp
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: Close-up of a person clipping the diffuser attachment onto the dryer, then immediately switching it on in one continuous shot | REASON: Fine hand-object manipulation and correct mechanical alignment across frames often glitch or teleport | INSTEAD: Start with the diffuser already attached, showing only a static handheld shot of the dryer being raised toward the hair
+
+AVOID: Detailed finger movements pressing specific heat/speed buttons followed by an immediate, visible change in airflow intensity | REASON: Small button presses and cause-effect timing on appliances are unreliable and can desync | INSTEAD: Show the dryer already running near hair, with only a subtle tilt of the handle to imply adjustment
+
+AVOID: UGC-style selfie shot where the creator moves the dryer around their head, carefully placing curls into the diffuser prongs | REASON: Complex interaction between hands, device, and hair from a front-facing angle leads to hand/hair merging and awkward grip physics | INSTEAD: Use a simple side or three-quarter profile where the dryer is mostly static at the ends of curls
+
+AVOID: Dramatic transformation from frizzy wet curls to perfectly defined dry curls within a single continuous 8-second shot while the dryer runs | REASON: Strong before/after hair-state changes in one clip cause temporal inconsistency and unrealistic morphing | INSTEAD: Show already mostly-styled curls with subtle movement and shine, implying they were dried with the product
+
+AVOID: Visible hot air stream or “Defrizzion Technology” airflow rendered as semi-transparent currents wrapping around each curl | REASON: Complex, directional airflow or energy FX with fine structure is hard to render and may clip through hair or look like artifacts | INSTEAD: Suggest airflow with gentle hair motion and maybe a soft glow on the diffuser, without visible streams
+
+AVOID: Macro close-up of individual curls being “defrizzed” in real time—frizz strands retracting smoothly into defined spirals under the diffuser | REASON: Fine strand-level hair physics and material transformation across frames are unreliable | INSTEAD: Use a quick cut between two similar angles: one slightly frizzier, one smoother, keeping motion minimal
+
+AVOID: Multishot UGC montage in a single 8-second generation: bathroom mirror selfie → overhead shot of dryer on counter → wide shot of user diffusing curls | REASON: Multiple distinct camera setups and environments inside one clip tend to blur together and break continuity | INSTEAD: Choose one simple angle (e.g., mirror selfie or bathroom side profile) and stay in that setup with minor camera wobble
+
+AVOID: Complex cord behavior, like the power cable swinging naturally as the user moves or wrapping around their arm | REASON: Thin cables often warp, float, or change length/connection point over time | INSTEAD: Let the cord hang mostly straight and partially out of frame, without calling attention to its motion
+
+AVOID: Perfectly legible close-up of the full “Curlsmith Curly Hair Dryer – Defrizzion Technology” text on the barrel as a key message shot | REASON: Models often distort small product typography, especially longer phrases | INSTEAD: Keep the logo area visible but small and rely on separate on-screen text overlay for the “Defrizzion Technology” hook
+
+AVOID: Fast, TikTok-style head flip or shake while diffusing to showcase bouncy curls in slow motion | REASON: Rapid head and hair motion combined with an appliance in hand often smears or detaches the dryer from the hand | INSTEAD: Use gentle, small head tilts or a brief bounce with slowed camera motion, keeping the dryer relatively stable
+
+AVOID: Two friends in the frame,
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+@Image1 provides the exact Curlsmith Curly Hair Dryer hero product identity — maintain 100% accuracy in shape, diffuser design, finish, colors, logo placement, and materials throughout. Do not alter or stylize the product body, diffuser, or branding.
+
+UGC-style, 8-second vertical video. Natural bedroom/bathroom setting for young shoppers: soft daylight from a side window, simple neutral background, a few subtle decor items blurred in bokeh. Handheld phone-camera feel with gentle micro-wobble, but stable and clear.
+
+Cinematography – single continuous shot:
+• 0–2s: Start in medium close-up on a person’s side profile from shoulders up, already holding the exact dryer with diffuser attached near the ends of their already mostly-styled, defined curls. Dryer is ON but airflow is invisible. Camera slowly dollies and arcs from behind their shoulder toward a three-quarter profile, keeping the dryer and curls in frame.
+• 2–5s: As the camera drifts closer, the curls show subtle bounce and shine, gently moving from the implied airflow. The diffuser prongs stay steady near the hair, no intricate finger motions. Lighting softly shifts warmer, adding a golden edge highlight on the diffuser rim and logo.
+• 5–8s: Camera eases into a hero push-in that centers the dryer between the curls and the lens, logo small but readable, diffuser facing slightly toward camera. Shallow depth of field: background falls into creamy blur, curls softly framing the product.
+
+On-screen text / key message:
+At 2s, kinetic UGC-style caption pops in near the diffuser: “Curlsmith’s Defrizzion Technology” in clean, modern, high-contrast text. Slight bounce-in animation, then it gently drifts or scales a bit as the camera moves, staying clearly legible to the end.
+At 6s, a smaller secondary label appears below: “Curlsmith Curly Hair Dryer” — minimal, not overpowering the main hook.
+
+Motion and physics: Hair motion is small and realistic, no extreme transformations. The cord hangs mostly straight and partly out of frame, with minimal motion. Hand grip on the handle remains natural and steady. No rapid head flips or complex interactions.
+
+Lighting evolution: soft daylight plus a mild glow that brightens the diffuser area over time, creating sleek reflections on the black body and subtle specular highlights on the prongs, emphasizing premium materials without changing their shape.
+
+Audio:
+Ambient: quiet indoor room tone, very soft.
+SFX: gentle, consistent dryer hum starting from the first frame; a subtle shift in tone as the camera closes in, but no visible button press. Optional light fabric rustle from hair movement.
+No spoken dialogue.
+
+Overall style: authentic but polished UGC, like a well-shot phone clip ready for social ads; photorealistic, stable, no warping or distortion, product proportions and logo remain perfectly consistent from @Image1.

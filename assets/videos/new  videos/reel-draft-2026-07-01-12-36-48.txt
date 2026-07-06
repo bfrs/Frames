@@ -1,0 +1,96 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T12:36:48.145Z
+Video model: bytedance/seedance-2.0
+Format: 16:9 Landscape
+Aspect ratio: 16:9
+Duration: 15 seconds
+API cost (INR): ₹188.24
+Job ID: v4wHvcsN1d3KU9ep8UqN
+Video source: /api/reel-video/v4wHvcsN1d3KU9ep8UqN
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Style / aesthetic: UGC
+Duration (seconds): 15
+Video model: bytedance/seedance-2.0
+Format: 16:9 Landscape
+Aspect ratio: 16:9
+Reference image count: 0
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+(Not available — prompt was typed manually or steeraway analysis was not run.)
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+1. HOOK (0–3 SECONDS)
+SHOT: Extreme Close-Up + Motion
+VISUAL: Creator quickly brings Nike sneakers toward the camera with a surprised reaction.
+PURPOSE: Hook viewers and create curiosity.
+TEXT OVERLAY:
+"Why is everyone suddenly obsessed with these Nike sneakers? 👀"
+
+2. POV HAND REVIEW
+
+SHOT: POV Close-Up (Macro)
+VISUAL: Hand presses the Nike midsole and upper mesh.
+PURPOSE: Show softness, comfort, and quality.
+TEXT OVERLAY:
+"The cushioning feels unreal..."
+
+3. MIRROR SELFIE FIT CHECK
+
+SHOT: Mirror Selfie (Full Body)
+VISUAL: Creator wearing Nike sneakers with a sporty-casual outfit.
+PURPOSE: Lifestyle appeal + outfit inspiration.
+TEXT OVERLAY:
+"Perfect for walks, workouts, and everyday outfits."
+
+4. PRODUCT IN USE (WALKING SHOT)
+
+SHOT: Low-Angle Tracking Shot
+VISUAL: Feet walking naturally in Nike sneakers outdoors.
+PURPOSE: Demonstrate comfort during movement.
+TEXT OVERLAY:
+"Long walks without tired feet? Yes, please."
+
+5. OVER-THE-SHOULDER SHOT
+
+SHOT: Over-the-Shoulder POV
+VISUAL: Creator looking down at their feet while walking with a coffee.
+PURPOSE: Relatable, everyday lifestyle moment.
+TEXT OVERLAY:
+"Way lighter than I expected."
+
+6. TALKING HEAD REVIEW
+
+SHOT: Mid Shot
+VISUAL: Creator holding Nike sneakers and speaking to camera.
+PURPOSE: Build trust and credibility.
+TEXT OVERLAY:
+"Thought they were overhyped... until I tried them."
+
+7. CLOSE-UP DETAIL
+
+SHOT: Macro Product Close-Up
+VISUAL: Focus on Nike Swoosh, stitching, mesh texture, and sole details.
+PURPOSE: Highlight premium design and craftsmanship.
+TEXT OVERLAY:
+"The details are actually so clean."
+
+8. CTA ENDING (SOFT SELL)
+
+SHOT: Wide Shot (Natural Movement)
+VISUAL: Creator walking away confidently, smiling.
+PURPOSE: Soft recommendation and closing.
+TEXT OVERLAY:
+"Now I get why these keep showing up on my FYP. 🔥"
+
+FINAL CTA:
+"Would you wear these? 👇"

@@ -1,0 +1,67 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T04:52:00.801Z
+Video model: google/veo-3.1
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Duration: 8 seconds
+API cost (INR): ₹265.60
+Job ID: XDHeSg1TFe5LI39h5hZ9
+Video source: /api/reel-video/XDHeSg1TFe5LI39h5hZ9
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: MamaEarth Ubtan Face Wash
+Target audience: Young shoppers
+Style / aesthetic: UGC
+Key message: Feel your skin glow
+Creative direction: Indian girl reviewing this facewash and praising it's qualities
+Duration (seconds): 8
+Video model: google/veo-3.1
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Reference image count: 3
+Reference images: edited-photo.png, Gemini_Generated_Image_kpkpfckpkpfckpkp.png, Gemini_Generated_Image_ypsdgxypsdgxypsd.png
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: Girl unscrewing or flipping open the face wash cap, squeezing product onto her palm in one continuous close-up | REASON: Fine hand-object manipulation and cap state changes often glitch (cap teleporting, product appearing without squeezing) | INSTEAD: Start with cap already open and a static shot of a small amount of product already on her palm
+
+AVOID: Detailed shot of gel/ubtan flowing out of the tube in a smooth ribbon or drip | REASON: Fluid/viscous product physics are hard to render believably and may look frozen or warped | INSTEAD: Show a static dollop of product on the palm, then cut to it already lathered on the face
+
+AVOID: Full wash routine in one shot – applying on dry face, massaging, adding water, rinsing off, and ending with clean face | REASON: Multiple sequential state changes in a single clip confuse the model (soap vanishing, water appearing from nowhere, inconsistent face) | INSTEAD: Use two simple beats: face with product already foamed, then hard cut to clean, glowing face
+
+AVOID: Close-up of water splashing as she rinses at a sink or under a shower | REASON: Complex water motion and interaction with skin/hair tends to look unnatural and messy | INSTEAD: Show her gently patting her already-clean face with a towel, no visible running water
+
+AVOID: Perfectly legible front and back labels with all text, icons, and barcode readable | REASON: Models struggle with small, dense on-pack text and may distort or misspell copy | INSTEAD: Keep pack closer and slightly defocused or angled so only the brand band and colors are recognizable, not the fine print
+
+AVOID: Girl reading ingredients or directions from the back of the tube on camera | REASON: Long text blocks on a moving object usually become gibberish; mouth movements won’t sync with specific words | INSTEAD: Quick over-the-shoulder glimpse of the back for “detailed info” impression without depending on legibility
+
+AVOID: Transition where tan/dull skin visibly transforms to brighter, glowing skin in real time as she massages the face wash | REASON: Material/skin transformation in one shot often warps facial features or flickers | INSTEAD: Use a simple jump cut from neutral face (before) to brighter, well-lit “after” expression
+
+AVOID: She compares multiple different skincare products on a table and picks this face wash | REASON: Several similar objects plus hand interactions can cause objects to merge or duplicate | INSTEAD: Only show this one tube consistently, maybe entering frame from off-screen into her hand
+
+AVOID: Fast handheld selfie shot where she talks, gestures, and flips the tube toward camera while walking | REASON: Fast motion plus face and object close to lens leads to distortions and unstable tracking | INSTEAD: Stable selfie-style medium close-up with minimal movement, just subtle hand and head motions
+
+AVOID: Animated end-card where “Feel your skin glow” types itself on screen alongside a perfectly drawn logo | REASON: Kinetic typography and logo precision are unreliable; text may morph or misspell | INSTEAD: Use a static, large “Feel your skin glow” text already present in the frame, with a simple, approximate brand mark
+
+AVOID: Foam forming visibly from the ubtan paste on her face (thick-to-foamy transition) | REASON: Complex texture transformation on skin can look patchy or crawl unnaturally | INSTEAD: Either show a grainy ubtan-like mask texture OR a light foam texture, but keep it consistent within a
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+Tube rests on a minimalist bathroom counter, Image1 hero pack upright in natural window light; camera slowly pushes in.  
+
+Cut to selfie-style medium shot of a young Indian girl in a bright, cozy bedroom, holding the same tube from Image1 near her cheek, cap already open, small ubtan dollop visible on her other palm. She smiles to camera, speaking casually and enthusiastically, head and hand gestures subtle, like a real UGC review.  
+
+Jump cut to closer framing: the ubtan texture on her palm briefly lifted toward camera for emphasis, inspired by Image3 thickness, then back to her relaxed, glowing face, no product on it, just soft, healthy radiance.  
+
+Hard cut to final hero: tube from Image1 centered against a clean, softly lit background, slight handheld-style micro wobbles for authentic phone-shot feel. Camera holds almost still as warm rim light gently brightens and a faint reflection sweeps across the pack. Over this, bold on-screen text fades in above the tube: “Feel your skin glow”. Below, smaller, subtle text: “MamaEarth Ubtan Face Wash”.  
+
+Audio: natural room tone, soft whoosh between cuts, gentle sparkle accent as the key message appears.  
+
+Keep @Image1 as exact product identity for all front views; @Image2 only for occasional angled back glimpse if visible; @Image3 only to hint at texture color, no flowing product animation. Maintain label, logo, cap shape, colors, and proportions exactly as in Image1. Photorealistic, stable motion, no distortion.

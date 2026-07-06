@@ -1,0 +1,70 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T05:23:01.560Z
+Video model: x-ai/grok-imagine-video
+Format: 16:9 Landscape
+Aspect ratio: 16:9
+Duration: 10 seconds
+API cost (INR): ₹58.27
+Job ID: HL285NmakXKVZmcM8Dkk
+Video source: /api/reel-video/HL285NmakXKVZmcM8Dkk
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: Sennheiser Headphones
+Target audience: Gen Z
+Style / aesthetic: Cinematic
+Key message: Unplug from the world
+Creative direction: Loud street noises, disturbed by which a person wears these headphones and instantly disconnecting from the surroundings
+Duration (seconds): 10
+Video model: x-ai/grok-imagine-video
+Format: 16:9 Landscape
+Aspect ratio: 16:9
+Reference image count: 1
+Reference images: Sennheiser-Product-Gel0018.webp
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: Complex multi-shot sequence of person noticing loud street noise, grabbing headphones, putting them on, and relaxing all in one 10s clip | REASON: Models struggle with consistent actor, object continuity, and clear procedural order across several beats | INSTEAD: Show either the person already wearing headphones as noise “drops away,” or a single smooth motion from hand to already-near-ear in one simple shot
+
+AVOID: Detailed hand interaction of unfolding/adjusting the headband, rotating earcups, and fitting headphones precisely over ears | REASON: Fine hand-object manipulation often warps hands or headphones, breaking realism | INSTEAD: Start with headphones already open and near the head, or cut to them already worn, focusing on facial expression and environment shift
+
+AVOID: Street scene where multiple cars, bikes, and crowds move chaotically while the main character walks through and then isolates with headphones | REASON: Many interacting entities lead to motion glitches, character fusing, and loss of subject focus | INSTEAD: Use suggestive background elements (blurred traffic, a few silhouettes, abstract motion streaks) behind a clearly framed single protagonist
+
+AVOID: Literal “sound wave” visuals smoothly collapsing or a realistic audio waveform UI around the character as they put on headphones | REASON: Abstract audio graphics with precise motion and shape continuity are hard to keep coherent and on-model | INSTEAD: Use cinematic lighting shifts, subtle camera shake calming, or environmental motion slowing to imply noise reduction
+
+AVOID: Fast whip-pan from noisy street close-up to serene close-up, expecting the same character and pose to stay consistent mid-motion | REASON: High-speed camera moves between very different scenes often scramble character identity and pose continuity | INSTEAD: Use a simple crossfade or a slow push-in where the background gradually morphs from busy to calm
+
+AVOID: Complex transitions where city elements (cars, street signs, people) dissolve into abstract quiet space while headphones appear on the head in perfect sync | REASON: Simultaneous environment morphing and object state change invites artifacts and partial transformations | INSTEAD: First transition the background from busy to minimal, then separately emphasize that the headphones are on
+
+AVOID: Visible wired connection being unplugged from a phone or jack to symbolize “unplug from the world” | REASON: Thin cables and ports are small, hard to track, and the unplug action involves tricky hand-object interaction | INSTEAD: Convey “unplug” metaphorically via environment fade-out or visual isolation with wireless-looking headphones
+
+AVOID: Detailed, legible on-screen text animation of “Unplug from the world” tracking perfectly with camera movement or wrapping around the headphones | REASON: Kinetic typography and sharp, spelled-correct text often render blurry or distorted | INSTEAD: Use simple, static or gently fading text on a clean background or end-card with minimal camera movement
+
+AVOID: Shots where headphones float, then perfectly align and auto-fit onto the character’s head in one continuous take | REASON: Precise 3D alignment between free-floating object and human head pose commonly breaks, causing clipping or misplacement | INSTEAD: Show floating product beauty shots separately, then cut to the character already wearing them
+
+AVOID: Close-up of face reacting with rapid micro-expressions as street sounds “hit” them, then instantly relaxing as headphones slide over ears, all in very tight framing | REASON: Fast facial motion plus nearby hands and object often result in warped faces or melting features | INSTEAD: Use a medium shot to capture body language and a more subtle facial change with minimal fast motion
+
+AVOID: Overly busy Gen Z street montage (skateboard tricks
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+Headphones from @Image1 pulse gently in midair as if reacting to distant city noise, soft vibration only.  
+Slow cinematic push-in from medium to close-up; camera path is straight, no sudden moves.  
+
+As we approach, the colored lighting subtly suggests a noisy street: fast flickering neon reflections sweep across the glossy earcups, hints of blurred traffic streaks softly reflected in the plastic, but background stays abstract and unfocused.  
+
+At the 4-second mark, the chaotic reflections gradually smooth out; flicker slows, colors become calm gradients of blue and violet. The headphones remain perfectly still in space; instead, the atmosphere changes. A subtle bloom in backlight creates a halo around the headband.  
+
+By 7 seconds, the scene is serene: gentle rim light, slow-moving haze behind the product, shallow depth of field. The key message “Unplug from the world” appears in clean, bold, white text to the left of the headphones, slightly drifting forward in depth but staying sharp and legible; below it in smaller text: “Sennheiser Headphones”. Text is static, no complex tracking.  
+
+End on a 1-second hero hold: camera locked off, no motion except very soft volumetric light drift over the earcups, highlighting cushions and contours.  
+
+Audio: start with layered distant urban soundscape (muffled traffic, far-off honks, crowd murmur), then smoothly low-pass and fade it down as the lighting calms, resolving into a warm, minimal ambient synth pad and a soft, satisfying electronic hush.  
+
+Preserve close: keep the exact design, proportions, colors, logo placement, and materials of the headphones exactly as in @Image1 — no alterations, no warping, no extra graphics on the product. Photorealistic, high contrast, cinematic grade, stable motion, no distortion.

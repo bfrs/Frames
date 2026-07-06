@@ -1,0 +1,95 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T05:09:15.538Z
+Video model: google/veo-3.1
+Format: 16:9 Landscape
+Aspect ratio: 16:9
+Duration: 8 seconds
+API cost (INR): ₹265.60
+Job ID: nqePCy6D51IqRv31ueH9
+Video source: /api/reel-video/nqePCy6D51IqRv31ueH9
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: BootStrap Shoes
+Target audience: Working professionals
+Style / aesthetic: Cinematic
+Key message: What success feels like
+Creative direction: Indian business man helping a poor women
+Duration (seconds): 8
+Video model: google/veo-3.1
+Format: 16:9 Landscape
+Aspect ratio: 16:9
+Reference image count: 1
+Reference images: istockphoto-187310279-612x612.jpg
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: One continuous 8s shot where the businessman walks through a busy Indian street, notices a poor woman, stops, talks, and helps her | REASON: Too many distinct story beats and interactions for a single i2v clip; continuity and body motion will break | INSTEAD: Use a simple pre/post contrast (e.g., start with static shoe-in-hand, transition to hero standing confidently near a seated woman) with minimal actions
+
+AVOID: Detailed handoff where the businessman bends down, gently takes off her worn shoes, and carefully puts BootStrap Shoes on her feet | REASON: Fine hand–foot–shoe interaction, multiple contact points, and object state changes are highly error‑prone | INSTEAD: Show her already wearing the upgraded shoes in a later cut, or imply the gift via him extending a shoebox toward frame
+
+AVOID: Smooth shot of the businessman lacing up his own shoes, tightening laces, and then standing to walk toward her | REASON: Close-up, multi-step manipulation of laces and fingers will likely tangle, deform, or jump | INSTEAD: Start with the shoe already on his foot as he takes a single confident step forward
+
+AVOID: Complex emotional exchange with precise facial acting (teary-eyed smile from the woman as he helps her up) in close-up | REASON: Fast facial motion changes and nuanced expressions over a few seconds are unstable, causing flicker or warping | INSTEAD: Use medium or wide shots emphasizing posture and silhouette to suggest emotion rather than relying on detailed facial performance
+
+AVOID: Cinematic camera move orbiting around both characters as he reaches out his hand and she rises to stand beside him | REASON: Moving camera plus two interacting bodies and linked hands risks limb fusion, sliding feet, and broken perspective | INSTEAD: Keep the camera mostly locked or with a simple push-in while one clear action happens (e.g., him standing near her, slight nod)
+
+AVOID: Scene where she polishes or admires the fine texture of the shoe up close, fingers tracing the pattern | REASON: Close-up intricate hand-surface interaction on the textured leather will often smear or misalign the pattern and fingers | INSTEAD: Show the textured shoe in a controlled product glam shot with minimal or no hand motion
+
+AVOID: Businessman walking briskly through a crowd of other professionals, then peeling off to help the woman | REASON: Multiple moving humans in close proximity commonly cause merging bodies and inconsistent limbs | INSTEAD: Limit the frame to just the businessman and the woman in a relatively uncluttered background
+
+AVOID: On-screen kinetic typography of the line “What success feels like” tracking beside the moving characters | REASON: Moving, legible text aligned to character motion tends to warp, blur, or change spelling frame to frame | INSTEAD: Present the line as static end-card text over a near-still final frame
+
+AVOID: Precise brand/logo close-up on the side of the shoe or on a signboard as the camera moves | REASON: Models struggle to maintain exact lettering or logo fidelity during motion; letters will mutate | INSTEAD: Use a simple, static end-frame with the brand name cleanly typeset over a still or gently drifting product shot
+
+AVOID: Transformational “before-and-after” where her old torn footwear morphs into new BootStrap Shoes via a visual effect | REASON: Material transformation and object morphing often produce surreal, glitchy transitions | INSTEAD: Cut from one static shot of her old footwear to a new shot where the new shoes are already on her feet
+
+AVOID: Elaborate reflection shot where we
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+@Image1 provides the exact hero product identity for BootStrap Shoes — preserve 100% of its shape, proportions, perforated texture, leather tone, laces, sole thickness, and finish. No changes, no distortions.
+
+8‑second cinematic image‑to‑video sequence, one continuous arc:
+
+[Beat 1 – 0‑2s, studio hero]  
+Locked-off close shot on the shoe held exactly as in @Image1 against a dark, minimalist studio background. Slow, graceful orbital dolly left. Subtle rotation of the shoe in the hand so the side, toe, and sole catch the light realistically. Deep, elegant depth of field; background falls into soft bokeh.
+
+Lighting: dramatic, high-end product lighting with a warm key from above-left, cool rim from right. Gentle roll of specular highlights across the leather and perforations.
+
+Audio: quiet studio room tone; soft cloth rustle as the hand steadies the shoe.
+
+[Beat 2 – 2‑5s, street context]  
+Match cut: same shoe now on the foot of an Indian businessman, standing still at the edge of a modest Indian city sidewalk. Camera at low, three-quarter angle focused on the shoes. He takes a single confident step forward toward frame, crisp heel‑to‑toe motion, trousers moving naturally. Nearby on a low step, slightly out of focus but clear, a seated woman in simple clothing looks downward, hands in her lap. No direct interaction, just implied presence.
+
+Camera performs a slow forward dolly toward the businessman’s shoes, keeping both his polished pair and her older, worn footwear in frame for contrast, with the hero shoes always sharp.
+
+Lighting: late-afternoon warm sunlight with soft shadows; subtle dust motes in the air; cinematic color grade with rich contrast.
+
+Audio: gentle city ambience (distant traffic, soft voices, a bicycle bell), subdued to keep it contemplative. Slight shoe step sound on pavement.
+
+[Beat 3 – 5‑8s, message + end card]  
+Smooth cut to a calm, medium-wide shot: both characters now seated side by side on the same step. The businessman is slightly closer to camera, feet planted confidently, hero shoes prominent in the lower third. The woman sits beside him, posture more at ease than before, looking ahead. Their faces stay in softer focus; emotion is conveyed through relaxed body language and proximity, not detailed expressions.
+
+Camera executes a subtle slow push-in toward the shoes and their shared silhouette. Background remains a soft urban blur.
+
+At 6s, clean on-screen text fades in above the shoes, center frame:  
+“What success feels like”  
+Elegant, modern white title, steady and sharp, no movement or warping.
+
+At 7s, beneath that line, a smaller, discreet label fades in:  
+“BootStrap Shoes”  
+
+Both lines stay static until the final frame.
+
+Lighting gently brightens on the shoe, adding a soft halo of reflected daylight, emphasizing the premium leather texture and precise stitching.
+
+Audio: city ambience continues quietly; add a single soft, reassuring tonal swell as the text appears, then fade out.
+
+Overall: photorealistic, high-end cinematic look; stable geometry; no text drift; exact product consistency from @Image1 across all shots.

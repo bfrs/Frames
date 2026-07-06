@@ -1,0 +1,76 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T11:14:49.936Z
+Video model: alibaba/wan-2.7
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Duration: 9 seconds
+API cost (INR): ₹124.50
+Job ID: stitched-2d59ab1d97454e7aae49cf4c04972e7f
+Video source: /api/reel-video/stitched-2d59ab1d97454e7aae49cf4c04972e7f
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: oreo
+Target audience: Gen Z
+Style / aesthetic: Funny
+Key message: Twist... Lick... Dunk
+Duration (seconds): 9
+Video model: alibaba/wan-2.7
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Reference image count: 3
+Reference images: high-poly-3d-oreo-design-3d-model-c237c0062f.webp, 81grYsxH1eL._AC_SL1500_.jpg, 3NIFJ6E7CBFUBCFKNRF65XZNZI.avif
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: A continuous 9-second macro of a hand Twisting, then Licking, then Dunking one cookie in a single shot | REASON: Multistep hand-object manipulation and precise procedural order in one clip will cause hand warping, cookie teleporting, and missed beats | INSTEAD: Use three separate simple shots (cookie already split, cream already near mouth, cookie already at milk surface) with hard cuts between them
+
+AVOID: Close-up of fingers twisting the cookie apart with visible cream stretch between halves | REASON: Fine rotational manipulation and cream deformation are hard; halves may fuse, misalign, or the cream may vanish | INSTEAD: Start with cookie already separated and gently rotating apart in mid-air or on a table with a subtle camera move
+
+AVOID: Person licking the cream while still holding both cookie halves, then reassembling the cookie | REASON: Tongue–cookie–hand interaction plus reattachment is too complex; expect clipping, face distortion, and cookie state inconsistencies | INSTEAD: Show a static hero cookie half with a playful animated wipe or shimmer implying a lick, then cut away
+
+AVOID: Dramatic slow-motion Dunk where a hand pushes the cookie into a clear glass of milk and we see realistic milk displacement and bubbles | REASON: Liquid physics, refraction through glass, and hand–liquid interaction will break (floating cookie, weird milk, clipping) | INSTEAD: Show the cookie already entering opaque milk with stylized splash shapes or graphic motion overlays
+
+AVOID: Cookie falling from above into a milk glass, creating a big splash that soaks nearby objects or characters | REASON: Free-fall physics, impact reaction, and many flying droplets are unreliable; splash may look frozen or intersect with solid objects | INSTEAD: Use a locked-off glass with a pre-posed stylized milk crown and the cookie already half-submerged
+
+AVOID: Gen Z friends passing the cookie around a table, each doing one step (twist / lick / dunk) in a single continuous camera move | REASON: Multiple humans, handoffs, and consistent cookie identity across frames will likely fail; cookie may multiply or change scale | INSTEAD: Show only one or two simplified character silhouettes or hands, cutting between them with the cookie mostly framed alone
+
+AVOID: Extreme close-ups of a mouth biting into the dunked cookie with crumbs and milk drips in slow motion | REASON: Fast-motion facial close-ups and crumb/milk particle dynamics tend to glitch, with distorted mouths and unnatural debris | INSTEAD: Cut from dunked cookie to a stylized crunch effect (vibration, quick zoom, or graphic crack pattern on the cookie)
+
+AVOID: Cookie stack on a plate tipping as one cookie is grabbed, then perfectly settling back with accurate physics | REASON: Complex balance, friction, and secondary motion in stacks often look wrong; cookies may slide unrealistically or fuse together | INSTEAD: Keep the stack static; animate only one foreground cookie rotating or sliding minimally without affecting the rest
+
+AVOID: Hyper-legible moving logo or “Twist… Lick… Dunk” text orbiting a spinning cookie | REASON: Video models struggle with sharp, spelled-out kinetic typography tied to 3D motion; letters can warp or become nonsensical | INSTEAD: Use mostly static or gently appearing text near the cookie with minimal motion, relying on editing rather than 3D travel
+
+AVOID: A comedic scene where milk level in the glass noticeably drops as multiple dunks happen within the same shot | REASON: Persistent liquid volume changes across time in one clip are hard; milk level may randomly jump or reset | INSTEAD:
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+@Image1 provides exact cookie and milk appearance — preserve its shape, pattern, cream layer, logo, colors, and proportions with no distortion.  
+@Image2 gives plate, fabric, and lighting style.  
+@Image3 gives stacked-cookie background texture.
+
+9s Gen Z funny snack ad.
+
+Shot 1 [0-3s]  
+Motion: Single hero cookie from @Image1 rests flat on a bold blue plate on a table. Two halves are already slightly separated horizontally, hovering just a few millimeters apart, keeping perfect alignment and scale. They slowly slide a bit farther apart along the plate surface, revealing the cream layer, then gently settle, staying in contact with the plate so shadows remain anchored. As they move, playful creamy doodle lines pop in as 2D animated overlays between the halves.  
+Camera: Slow push-in from medium to close-up, locked to plate center.  
+On-screen text: Above cookie, bold white word appears with a tiny bounce: “Twist...”. Text stays mostly static.
+
+Shot 2 [3-6s]  
+Motion: Cut. Close-up of one cookie half lying cream-side up on the same plate. A simple animated white sparkle sweep glides across the cream in an arc, implying a playful lick without showing face or tongue. Crumbs rest around the cookie but stay still. The cream surface stays solid; no deformation.  
+Camera: Fixed close-up with shallow depth of field, slight handheld-style micro-wiggle.  
+On-screen text: Word changes with a quick pop morph into “Lick...”, staying above the cookie.
+
+Shot 3 [6-9s]  
+Motion: Cut. Hero cookie from @Image1 now stands already half-submerged in a white milk glass on the table, milk surface calm with a pre-posed stylized splash crown frozen around it for a cartoon feel. Only subtle motion: milk splash shapes gently wobble in place, and a soft highlight reflection glides across the cookie edge and glass rim. Everything keeps contact; no big liquid movement.  
+Camera: Slow vertical tilt up from glass rim to cookie logo, ending on a strong hero angle.  
+On-screen text: At top center, big playful text pops in: “Dunk”. Under it, smaller label fades in: “oreo”. Hold text to end.  
+
+Atmosphere: Bright saturated blues and whites, clean studio light with soft reflections, crisp details, humorous energy, loop-friendly.  
+Audio: Light bassy pop when each word appears, soft cartoon “whoosh” for sparkle, gentle ambient studio hum. Photoreal cookie and milk, stable motion, no warping.

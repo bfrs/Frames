@@ -1,0 +1,71 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T11:33:00.145Z
+Video model: alibaba/wan-2.7
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Duration: 12 seconds
+API cost (INR): ₹298.80
+Job ID: A9e6E4nKH4dnGrlNMrga
+Video source: /api/reel-video/A9e6E4nKH4dnGrlNMrga
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: BRYAN AND CANDY : NEW YORK
+Style / aesthetic: Wellness
+Initial prompt: A beautiful women lighting up a candle and relaxing
+Duration (seconds): 12
+Video model: alibaba/wan-2.7
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Reference image count: 1
+Reference images: 2-Candles-Vintage-Sandalwood-Single_1080x1080.webp
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: Close-up of woman striking a match, then bringing tiny flame to the candle wick and igniting it in one continuous shot | REASON: Fine hand–object interaction and precise ignition sequence often glitch; match and flame may teleport or merge with wick | INSTEAD: Start with the candle already lit, flame steady, then cut to the relaxed woman enjoying the glow  
+
+AVOID: Woman picking up the decorative metal lid, placing it aside, then later putting it back on to extinguish the candle | REASON: Object state persistence and small metal lid often jump, disappear, or fuse into the jar | INSTEAD: Keep the lid already off and visible in the frame as a static prop; do not show it being handled  
+
+AVOID: Extreme close-up of the woman’s fingers adjusting the wick or touching hot wax | REASON: Fine finger motion plus semi-liquid wax leads to finger penetration, melting artifacts, and distorted hands | INSTEAD: Show her hands resting near the candle or loosely holding a mug or pillow, without touching flame or wax  
+
+AVOID: Slow-motion shot of scented vapor visibly rising in shaped tendrils around her face | REASON: Complex smoke behavior and interaction with face often look artificial, clip through skin, or vanish abruptly | INSTEAD: Suggest the fragrance through her relaxed expression and deep breathing, with only subtle candle flame movement  
+
+AVOID: Long continuous shot where camera orbits around both the woman and the candle while she moves from sitting upright to lying down | REASON: Combined subject motion and moving camera cause body warping, pose jumps, and inconsistent candle position/scale | INSTEAD: Use two simple cuts: one stable shot on the candle, then a separate stable shot on the reclining woman lit by warm light  
+
+AVOID: Showing the product label text forming or animating onto the candle tin or end-card through kinetic typography | REASON: Precise, moving on-screen text is often illegible or misspelled; brand lockup may warp | INSTEAD: Use a brief static end frame with the product tin in focus; allow the logo and words to appear already printed and steady  
+
+AVOID: Candle being accidentally bumped, wobbling, and then settling back without spilling wax | REASON: Realistic rigid-body reaction and liquid wax behavior are hard; jar may slide unrealistically or wax may stay rigid | INSTEAD: Keep the candle stationary on a solid surface, with only the flame flickering gently  
+
+AVOID: Shot where the woman pours melted wax from the candle onto another surface or into another container as part of a ritual | REASON: Pouring viscous liquid with correct flow and pooling is unreliable and may break the candle’s solid-wax appearance | INSTEAD: Keep wax firmly solid in the jar; show only the top surface subtly reflective around the wick  
+
+AVOID: Complex yoga or stretching sequence beside the candle transitioning smoothly into lying back and closing eyes within one 12‑second clip | REASON: Multiple articulated full-body poses in one take often cause joint distortions and temporal glitches | INSTEAD: Show her already in a comfortable reclined or seated pose, making only small, slow movements like exhaling and closing eyes  
+
+GROUND: Lit candle tin on wooden slice | Candle remains completely still; metal tin feels weighty and stable on the wood; only the small flame moves with a gentle, irregular flicker, bending slightly as if from faint air currents, while warm light pulses softly on the patterned tin  
+
+GROUND: Woman reclining in a cozy setting near the candlelight | Her body sinks slightly into a soft sofa or bed; fabric under her forms shallow creases radiating from her hips and shoulders; when she settles, there is a tiny residual bounce before everything becomes still  
+
+GROUND: Woman taking a slow, deep breath with eyes closing | Shoulders and upper chest rise subtly on inhale, then fall on exhale; her eyelids lower smoothly without jitter; facial muscles relax, with a small exhale causing the slightest movement of hair near her cheeks  
+
+GROUND: Soft cloth or blanket near her hands | When her hand rests on the blanket, the cloth compresses a bit under her fingers, forming gentle folds; after her hand stops, the fabric has a brief micro-adjustment as it settles into place  
+
+GROUND: End-card hero shot of the candle tin and lid | Camera is mostly locked-off; if there is a tiny dolly-in, the candle and lid grow in size smoothly without scale jumps; specular highlights on the patterned metal shift gradually as the perspective changes, while the printed logo and text remain sharp and unmoving  
+
+GROUND: Ambient hair motion from her breathing or tiny head movement | Hair strands closest to her shoulders lag slightly behind when she adjusts her head, then continue a tiny residual sway before coming to rest, without intersecting unrealistically with her skin or clothing
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+@Image1 provides the exact hero candle tin, lid, logo, pattern, colors, materials, and wooden slice. Preserve 100% visual consistency and proportions.
+
+12s wellness image-to-video ad. Soft, intimate evening mood, warm and calm.
+
+Framing – Shot 1 (0–4s): Close, eye-level shot of the lit candle tin on its wooden slice, on a light marble surface, exactly as in @Image1. Candle and wood feel weighty and completely still. Only the small flame moves with a gentle irregular flicker, bending slightly as if from faint air currents. Warm light pulses softly over the intricate mandala pattern and metallic sheen. Shallow depth of field; background softly blurred. Overlaid, elegant serif text fades in near the candle, reading: “Breathe in calm.” Text stays sharp and steady, no animation beyond smooth fade.
+
+Shot 2 (4–9s): Cut to a wider, cozy bedroom or living-room setting. The same candle, still lit and unchanged, now stands on a small bedside table near a soft sofa or bed. In the midground, a beautiful woman in comfortable loungewear reclines on the sofa/bed, already settled. Her body sinks slightly into the cushions; fabric creases radiate from her hips and shoulders, with a tiny residual bounce before becoming still. Warm candlelight and gentle ambient lamps wrap her in a golden glow. She takes a slow, deep breath: shoulders and upper chest rise subtly on inhale, then fall on exhale; her eyelids close smoothly; facial muscles relax. A soft blanket near her hands compresses slightly under her resting fingers, then has a brief micro-adjustment as it settles. Hair nearest her shoulders lags a beat as she makes a tiny head adjustment, then sways minutely before resting, without clipping through skin or clothing. The candle remains perfectly stable in the foreground, flame flickering calmly.
+
+Shot 3 – End card (9–12s): Cut back to a hero close-up of the candle and its matching lid on the marble surface and wooden slice, exactly as in @Image1. Camera mostly locked-off with a very slow, smooth dolly-in. Specular highlights glide gently across the patterned metal as perspective shifts, while logo and printed details stay crisp and unmoving. Key message appears beside the product in clear, refined type: “Luxury Fragrance Candles for Everyday Wellness”. Beneath, in smaller text: “BRYAN AND CANDY : NEW YORK”. All text remains static and legible. Candle stays perfectly still, flame softly flickering. Color palette preserves @Image1’s warm golds, oranges, and subtle mauves. Photorealistic, stable, no distortion or label warping.

@@ -1,0 +1,72 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T07:08:22.435Z
+Video model: x-ai/grok-imagine-video
+Format: 1:1 Square
+Aspect ratio: 1:1
+Duration: 10 seconds
+API cost (INR): ₹58.43
+Job ID: hyAZY4Th1oBULlvktwmn
+Video source: /api/reel-video/hyAZY4Th1oBULlvktwmn
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: BootStrap Shoes
+Target audience: Young shoppers
+Style / aesthetic: Funny
+Key message: What success feels like
+Duration (seconds): 10
+Video model: x-ai/grok-imagine-video
+Format: 1:1 Square
+Aspect ratio: 1:1
+Reference image count: 2
+Reference images: 764998-8777794.avif, istockphoto-187310279-612x612.jpg
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: Character frantically lacing up the dress shoes in a close-up, fingers looping and tying knots in real time | REASON: Fine hand–lace interaction and stepwise tying often distort, with warped fingers and teleporting laces | INSTEAD: Start with shoes already laced; show a quick, smooth slip-on or a simple foot stepping into the shoe
+
+AVOID: Shoes transforming from scuffed sneakers into glossy dress shoes via a complex morph while the wearer is mid-step | REASON: Material/state transformation during motion leads to glitchy blends and broken legs/feet | INSTEAD: Use a hard cut or playful jump-cut: one frame in casual shoes, next frame landing in polished dress shoes
+
+AVOID: Single shot where the POV walks from messy bedroom, onto street, then into a party, with the shoes staying perfectly consistent | REASON: Long multi-environment moves break spatial consistency and shoe appearance across frames | INSTEAD: Use 2–3 short, separate shots of the shoes in each environment, cutting between them
+
+AVOID: Hand tossing one pair of shoes into the air and it spinning, cloning into multiple pairs, then merging back into one on the ground | REASON: Complex 3D motion, cloning, and merging of the same object tends to flicker and lose shape | INSTEAD: Show one clean upward toss, then cut to a static hero shot of the shoe landing or posed
+
+AVOID: Comedy gag where a swarm of young shoppers all fight over the same pair, grabbing the shoe from different angles in one chaotic shot | REASON: Many hands and bodies interacting with one object often produce limb mergers and shoe warping | INSTEAD: Show at most two characters, or a series of quick cuts of different people admiring the shoe separately
+
+AVOID: Close-up of a hand balancing the shoe on one finger like a spinning basketball | REASON: Precise balance and spin around a small contact point is hard; the shoe may slide through the finger or distort | INSTEAD: Show the hand confidently presenting or lightly bouncing the shoe in a stable, held pose
+
+AVOID: Visual metaphor where the shoe sole crushes and flattens 3D text reading “FAILURE” as it steps down | REASON: Dynamic deformation of text and material interaction (crushing) usually looks unnatural and unreadable | INSTEAD: Step next to already-flat stylized text, or let the shoe land and then cut to intact, clean end-card text
+
+AVOID: On-shoe animated text that appears, wraps around the leather, and stays perfectly legible while the shoe rotates | REASON: Moving, curved surfaces with tight typography lead to smeared, misspelled, or jittery text | INSTEAD: Keep any readable slogan or brand line on a separate, flat end-card or static overlay
+
+AVOID: Fast comedic sequence where the shoes “walk themselves” across the floor into frame, then up onto a person’s feet | REASON: Autonomous shoes plus attachment to feet introduces gait physics and object re-parenting that models handle poorly | INSTEAD: Show stationary shoes, then a foot stepping into them; cut to the person already walking confidently
+
+AVOID: Extreme close-up of textured leather morphing into a city skyline or office scene to symbolize “success” | REASON: Detailed surface-to-scene metamorphosis causes mushy, incoherent geometry | INSTEAD: Cut from a macro texture shot of the leather to a wide shot of the wearer in a city/office setting
+
+AVOID: Rapid push-in from wide shot of a young shopper in a store to macro shot inside the shoe showing comfy insole, all in one continuous
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+Shoes slide playfully into frame on a wood surface, already perfectly laced, lightly bumping each other like they’re sharing an inside joke.  
+
+Camera: quick, smooth overhead push-in to the hero pair from @Image1, locking their exact shape, dark textured leather, logo, and proportions.  
+
+Cut: match-frame jump to @Image2 style — a young adult hand suddenly presents the same hero shoes balanced steadily on an open palm, arm in casual streetwear. The shoe stays identical to @Image1 in color and crocodile texture; ignore @Image2 shoe color, only use its pose and lifestyle vibe. Camera orbits slowly around the shoe, shallow depth of field, clean dark background.  
+
+As the orbit reaches a front three-quarter angle, bold white text pops in above the shoe with a tiny upward bounce: “What success feels like”. The words hold steady and crisp.  
+
+Under the text, smaller tag briefly fades in: “BootStrap Shoes”. Keep it subtle, secondary to the hero shoe.  
+
+Lighting: bright, polished studio key light with soft rim highlights sweeping across the textured leather as if a reflection glides over it, emphasizing premium detail; no shape warping.  
+
+Atmosphere: slight vignette, playful but sleek, aimed at young shoppers, with a confident, comedic beat created only by motion and timing.  
+
+Audio: light “whoosh” on the slide-in, a soft comedic “pop” when the text appears, minimal modern beat in the background, clean studio ambience.  
+
+Preservation: Maintain 100% consistency with @Image1 for both shoes at all times — same materials, dark color, stitching, soles, and logo placement. No transformation, no extra pairs, no distortion. Hyper-realistic, stable motion, smooth edges, no glitches.

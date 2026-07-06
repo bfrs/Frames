@@ -1,0 +1,9 @@
+# Prompt-to-Reel Lab backend (server.py, src/text_gen.py, src/video_gen.py)
+# Flask serves the static UI and /api/* routes; requests calls OpenRouter.
+
+certifi>=2024.0
+flask>=3.1
+gunicorn>=23.0
+python-dotenv>=1.2
+requests>=2.34
+Pillow>=11.0

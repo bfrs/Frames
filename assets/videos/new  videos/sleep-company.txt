@@ -1,0 +1,62 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T11:46:19.899Z
+Video model: alibaba/wan-2.7
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Duration: 8 seconds
+API cost (INR): ₹199.20
+Job ID: stitched-84d9e782e41842dc93108869ce602f15
+Video source: /api/reel-video/stitched-84d9e782e41842dc93108869ce602f15
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: Sleep Company
+Target audience: Gen Z
+Style / aesthetic: UGC
+Key message: Dream Within A Dream
+Duration (seconds): 8
+Video model: alibaba/wan-2.7
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Reference image count: 1
+Reference images: 121_800x.webp
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: Complex “dream within a dream” loop where the sleeper repeatedly wakes up, removes the neck pillow, then realizes they’re still dreaming and re-applies it within one continuous 8s shot | REASON: Multi-step state changes (pillow on/off, posture changes) in rapid succession will cause jitter, teleporting objects, and continuity errors | INSTEAD: Single continuous shot of person already wearing the pillow, with a simple surreal visual overlay (soft light ripple or subtle environment shift) to suggest the dream layer
+
+AVOID: POV shot of user lying in bed, pulling the neck pillow from off-screen, wrapping and clipping it around their neck in one smooth motion | REASON: Fine hand-object manipulation and wrapping motions around the neck can lead to hand clipping through pillow and impossible deformations | INSTEAD: Cut in on the pillow already comfortably around their neck as they relax into frame
+
+AVOID: UGC-style handheld “before/after” where the pillow inflates or changes shape around the neck mid-shot (e.g., flat → fully supportive while worn) | REASON: Material transformation plus contact with the neck makes it hard to keep neck, chin, and straps aligned; pillow may melt into skin or float | INSTEAD: Start with pillow already full and plush; show only a slight squash as the head settles back to imply support
+
+AVOID: Rapid TikTok-style transitions where the person snaps fingers or covers the camera, instantly changing from awake on couch to asleep on plane seat while pillow and outfit remain consistent | REASON: Hard temporal cuts with identical actor require precise body and prop continuity; model often warps face, pillow size, or seat between states | INSTEAD: One environment only (e.g., couch) and use a simple camera move or subtle exposure shift to signal “entering dream”
+
+AVOID: Split-screen UGC comparing two sleepers side-by-side, one with and one without the pillow, in the same frame | REASON: Two highly similar characters plus two props in tight composition often blend, with limbs and pillows crossing panels or duplicating | INSTEAD: Single subject with a quick push-in from medium to closer shot to imply “with pillow” comfort, no explicit comparison
+
+AVOID: Gen Z creator vlogging into front camera while simultaneously adjusting the neck pillow strings, tightening or loosening them in real time | REASON: Fine manipulation of dangling cords plus moving mouth and head confuses tracking; cords may pass through hands or vanish | INSTEAD: Either talk to camera with cords already in a relaxed, static position, or show a close, slow shot of the pillow and cords with no hands
+
+AVOID: Trippy “astral projection” where the sleeper’s dream-self floats out of their body while pillow remains on the original body, then both versions interact | REASON: Multiple interacting human figures with one shared prop leads to body merges, duplicated or missing pillows, and broken shadows | INSTEAD: Keep only one body visible; suggest astral vibe via light trails, subtle double-exposure, or background morphing
+
+AVOID: Continuous shot that moves from close-up of face in bed, travels through a portal, and emerges on a plane/train while the same pillow remains locked to the neck and reacts to movement | REASON: Complex camera travel plus changing environments makes it hard to keep pillow orientation, scale, and straps consistent | INSTEAD: Stay in one location and simulate “travel vibes” with ambient sound and minimal background hints, or use a quick hard cut without moving camera
+
+AVOID: Dream sequence where the neck pillow morphs into other objects (cloud, moon, donut) and then back around the neck in a smooth animation | REASON:
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+@Image1 provides the exact hero look of the Sleep Company neck pillow, the person, and the casual indoor setting. Preserve 100% consistency in pillow shape, orange and gray colors, fabric texture, cords, fit around the neck, and the relaxed posture in a soft chair. Do not change these core details.
+
+UGC vertical video, 8 seconds total, natural phone-camera feel but clean and cinematic, soft daylight, calm vibe for Gen Z.
+
+Framing: start in a medium-close shot, front 3/4 angle on the person already wearing the pillow, resting in the same chair. Soft shallow depth of field, background hints of a small side table and cup.
+
+Beat 1 (0–3s): Static framing. The person’s eyes are closed, head slightly leaned back, breathing slow. The pillow stays fully plush and still, gently supporting the jaw and neck, keeping full contact with their hoodie. A faint, subtle ripple of warm light slowly glides across the curtain behind them, as if the room itself is drifting into a dream. Shadows on the pillow and face stay anchored and move only with the light shift, not teleporting. On-screen handwritten-style text fades in near the top: “Dream Within A Dream”. Text gently drifts upward by a few pixels, staying sharp and legible.
+
+Beat 2 (3–6s): Hard cut. Slightly closer shot on the same side of the face and pillow. Camera holds mostly steady with a very slow, tiny push-in. The background softly changes hue over time, cycling from neutral white to a faint pastel lavender and back, like a subtle aurora, while staying behind the subject so all edges remain clean. The person’s head makes a tiny natural nod downward, then settles deeper into the pillow; fabric compresses a little then rebounds, keeping shape and scale consistent. Cords hang naturally and follow with a slight delayed motion, never clipping through the chest.
+
+Beat 3 (6–8s): Hard cut to a relaxed wider shot, still in the same room and same chair, framed waist-up. The pillow remains perfectly consistent in size and placement on their neck. Camera slowly dolly-outs a bit to reveal more of the cozy corner: soft blanket on the chair arm, side table with cup and phone resting flat. Exposure warms slightly as if sunrise light enters, reflections sliding smoothly across the pillow’s surface without distortion. The person remains peaceful with eyes closed. “Dream Within A Dream” text glows softly once, then in the lower corner a small clean end-card style label appears: “Sleep Company”. Keep all motion slow and physically grounded, no object morphing or teleporting, ultra-photorealistic materials, stable proportions, no distortion.

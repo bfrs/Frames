@@ -1,0 +1,54 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T10:19:25.496Z
+Video model: x-ai/grok-imagine-video
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Duration: 10 seconds
+API cost (INR): ₹58.27
+Job ID: 4LRnIMVBAuGXtmnnCVS4
+Video source: /api/reel-video/4LRnIMVBAuGXtmnnCVS4
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: PlayWhiskers Cat Wand
+Target audience: Parents & families
+Style / aesthetic: Funny
+Key message: keep your feline friend entertained
+Duration (seconds): 10
+Video model: x-ai/grok-imagine-video
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Reference image count: 1
+Reference images: Interactive-Cat-Rainbow-Wand-Toys-Interactive-Cat-Teaser-Wand-String-Colorful-Ribbon-Charmer-for-Kittens-2-PCS_788fcb64-477a-433a-b1cb-eeefe00c71a3.add093a944886bc30dc6992053943489.avif
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: Parent assembling the wand from multiple detachable pieces before play | REASON: Multi-step object assembly and small connectors often warp, misalign, or teleport between frames | INSTEAD: Start with the wand already fully assembled in hand or on the floor
+
+AVOID: Close-up of a parent’s fingers intricately tying or clipping the ribbon onto the wand | REASON: Fine hand-object manipulation tends to produce extra fingers, merged parts, and unstable geometry | INSTEAD: Show the ribbon already attached, with a simple wide shot of the wand being lifted
+
+AVOID: Complex whipping motion where the ribbon traces a precise spiral or figure-eight path in the air | REASON: Long, flexible objects in fast motion often jitter, break, or change length and thickness unrealistically | INSTEAD: Show smoother, slower swaying or gentle arcs of the ribbon
+
+AVOID: Scene where multiple cats and a child all grab at the same moving ribbon simultaneously | REASON: More than two interacting entities lead to tangled limbs, merged bodies, and unclear contact points | INSTEAD: Focus on one cat interacting with the ribbon, with the child or parent mostly in the background
+
+AVOID: Cat successfully catching the ribbon in its paws, then the parent quickly yanking it away in one continuous, precise tug-of-war | REASON: Accurate contact, grip, and continuous tension on a flexible object are hard to maintain across frames | INSTEAD: Alternate between shots of the cat pouncing and the ribbon flicking, without strict continuous contact
+
+AVOID: Parent twirling the wand in a full circle above the cat’s head while walking around it | REASON: Coordinated circular motion plus character movement often causes the wand to detach, bend through bodies, or vanish mid-orbit | INSTEAD: Keep the parent mostly stationary, moving the wand in a simple left-right or up-down pattern
+
+AVOID: Cat leaping from a sofa to a table to a kid’s lap while continuously following the ribbon in one unbroken move | REASON: Complex, multi-surface parkour tied to a tracking object leads to teleporting, sliding, or broken joints | INSTEAD: Show a single leap or quick cut between separate simple jumps
+
+AVOID: Close-up gag where the cat chews on or tightly wraps the ribbon around its paw | REASON: Thin ribbons wrapped around limbs often clip through fur, disappear, or fuse with the paw | INSTEAD: Show the cat batting at or lightly pawing the loose ribbon without it wrapping tightly
+
+AVOID: Fast cutting between several family members each taking turns with the same wand in one continuous action | REASON: Maintaining consistent wand position, ribbon color, and orientation across multiple human holders is difficult | INSTEAD: Feature a single primary handler, with others reacting or laughing in the background
+
+AVOID: On-wand tiny printed text or logo that needs to be legible during motion for the punchline | REASON: Small moving text on thin objects blurs and distorts, making brand words unreadable | INSTEAD: Reserve any readable product name or message for a simple, stable end-card or static angle
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+PlayWhiskers Cat Wand sways in smooth, playful arcs above a cozy living-room rug, colorful ribbon motion exactly like @Image1. Camera: medium shot, gentle handheld feel, slight left–right sway as if from a laughing parent’s POV. One happy cat playfully bats at the loose ribbon, occasionally missing in a funny, bouncy way; no wrapping around paws, no complex spirals, just soft, floating curves. Warm daylight from a window, soft shadows, bright family-home colors; a blurred sofa and kid’s drawings on the wall in the background. Midway, exaggerated comedic “boing” sound as the cat hops once toward the ribbon. Light chuckles from an offscreen child and parent, with soft domestic ambience. Text appears in big, bold, friendly lettering centered near the top: “keep your feline friend entertained”. In the final second, quick push-in to the wand resting on the rug, cat happily watching it; subtle lower-corner tag reads “PlayWhiskers Cat Wand”. Clean, photoreal, stable motion, no distortion; preserve exact wand shape, ribbon colors, and proportions from @Image1.

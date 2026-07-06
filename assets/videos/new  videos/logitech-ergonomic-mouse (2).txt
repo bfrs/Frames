@@ -1,0 +1,77 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T10:53:51.805Z
+Video model: x-ai/grok-imagine-video
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Duration: 10 seconds
+API cost (INR): ₹58.27
+Job ID: ItsEao0ygtcjGX4Ouupn
+Video source: /api/reel-video/ItsEao0ygtcjGX4Ouupn
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: Logitech Ergonomic Mouse
+Style / aesthetic: Bold
+Key message: Move with your mouse
+Initial prompt: Working professional passionately working on a project with this mouse
+Duration (seconds): 10
+Video model: x-ai/grok-imagine-video
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Reference image count: 1
+Reference images: image-1.jpg
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: Close-up of fingers clicking individual mouse buttons rapidly in sequence | REASON: Fine hand-object manipulation and precise button targeting often desync, fingers float or pass through plastic | INSTEAD: Show a stable hand resting naturally on the mouse with subtle, slow click motions
+
+AVOID: Professional quickly switching mouse between left and right hand while working | REASON: Hand and mouse alignment, grip continuity, and object persistence across hands are unreliable | INSTEAD: Keep mouse in one hand and emphasize flowing arm movement across the desk
+
+AVOID: Dramatic shot of mouse sliding in a fast zig-zag path while cursor and on-screen windows rearrange in sync | REASON: Multi-entity coordination (mouse + abstract UI + path) and temporal sync across screen elements often fail | INSTEAD: Mouse glides in a simple, single smooth arc while a bold, static graphic overlay appears
+
+AVOID: Vertical ergonomic mouse rotating in midair to perfectly reveal all sides in one continuous spin | REASON: 3D rotation of a complex object causes geometry warping, scale drift, and logo distortion | INSTEAD: Slow, partial turn on the desk surface, or a gentle tilt revealing its angled shape
+
+AVOID: Hand squeezing or pressing into the textured grip to show softness or ergonomic molding | REASON: Deformation of rigid plastic and skin contact physics are hard; model may morph the device shape | INSTEAD: Show palm lying relaxed along the contours, with the textured grip clearly visible but not deforming
+
+AVOID: Professional rapidly typing on keyboard with one hand while the other hand moves the mouse and head tracks multiple screens | REASON: Multiple moving body parts plus tools often leads to finger misalignment, intersecting objects, and unnatural posture | INSTEAD: Focus on the mouse hand and forearm in foreground, with soft, minimal motion on a blurred keyboard in background
+
+AVOID: On-screen text “Move with your mouse” animating as if being drawn precisely by the cursor path | REASON: Tight coupling of text drawing, cursor motion, and legible lettering often breaks; text becomes warped or unreadable | INSTEAD: Hard-cut or simple fade of bold, already-formed typography over a paused or slowly moving product shot
+
+AVOID: Mouse being picked up and flipped to show underside sensor and buttons, then placed back to continue work | REASON: Multi-step object manipulation and orientation changes tend to glitch, with underside blending into top or mouse teleporting | INSTEAD: Keep mouse planted on the desk and show side profile and angled top view via camera movement
+
+AVOID: Sweeping camera move circling 360° around the professional and desk while they keep using the mouse | REASON: Moving camera plus character plus props breaks spatial consistency and desk geometry | INSTEAD: Use a modest, single-direction dolly-in or pan along the desk edge
+
+AVOID: Mouse wire (or cable) swinging and dragging realistically as the mouse moves fast across the desk | REASON: Secondary motion of cables and collision with surface is unreliable; cables may clip or vanish | INSTEAD: Use a clean wireless look, with no visible cable
+
+GROUND: Hand resting on ergonomic mouse while working | Fingers curved naturally over buttons, thumb nestled in side groove; wrist and forearm anchored on desk with slight skin compression; tiny up-down micro-movements in the index finger for clicks; no noticeable deformation of the mouse body
+
+GROUND: Mouse gliding across desk surface in a single smooth motion | Base of mouse stays in full contact with desk; motion starts with a brief, gentle acceleration from the forearm and shoulder, then coasts at steady speed; when it stops, there is a soft deceleration rather than a hard snap; mouse does not tilt or lift
+
+GROUND: Professional’s forearm and upper body tracking the mouse movement | As the mouse moves, forearm slides subtly, sleeve fabric shifts and lags a fraction of a second, then settles; shoulders and torso lean a few centimeters in the direction of movement, then ease back to a relaxed posture
+
+GROUND: Camera dolly-in toward the mouse and hand on the desk | Perspective slowly changes with a smooth, constant-speed approach; edges of the desk and keyboard grow in frame size consistently; background blur gradually increases while the mouse and hand stay sharp and stable
+
+GROUND: Mouse performing a gentle angled tilt to showcase its vertical shape | One edge of the mouse lifts slightly while the opposite edge stays in light contact with the desk; tilt arc is small and slow, like someone nudging it; when it returns, it settles with a tiny, realistic rocking motion before coming to rest
+
+GROUND: Bold typography “Move with your mouse” appearing over a static or very slowly moving product shot | Text fades or scales in smoothly without wobble; mouse remains almost still beneath, with only subtle ambient hand micro-movements; no interaction between text and mouse, just layered visual elements
+
+GROUND: Professional’s focused head and eye
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+Mouse glides in a single smooth arc across a dark, bold desk setup, driven by a focused professional’s hand resting naturally on it.  
+Camera performs a slow, confident dolly-in along the desk edge, keeping the hand, forearm, and mouse centered and sharp while the background office softly blurs. Sleeve fabric shifts slightly as the forearm tracks the motion; shoulders lean a few centimeters, then ease back when the mouse settles.  
+Subtle micro-movements in the index finger suggest calm, precise clicks; wrist and forearm lightly compress against the desk. The mouse base never lifts or tilts, coasting to a soft, realistic stop.  
+For a brief beat, the mouse performs a gentle angled tilt in place, nudged by the hand: one edge lifting slightly while the opposite edge maintains contact, then rocking back with a tiny settle.  
+High-contrast lighting sculpts the vertical ergonomic shape: crisp rim light along the edges, soft gradients across the textured grip, and clean reflections on the smooth upper body. Bold, desaturated color grade with deep shadows and minimal, high-end studio ambience.  
+At the 7-second mark, motion slows to an almost-static hero hold on the mouse and hand from a three-quarter angle, close enough to feel the materials and curves.  
+Over this steady shot, strong, sharp typography fades in centered above the mouse: “Move with your mouse” in bold, modern sans-serif, pure white against the darker scene. Text appears fully formed with a smooth scale-in, no path drawing. Mouse and hand remain nearly still beneath, only tiny ambient movements.  
+As the text locks in, a small, understated line of text appears in a corner: “Logitech Ergonomic Mouse,” then gently fades while the hero shot stays stable.  
+Audio: tight, minimal sound design — soft cloth rustle as the forearm moves, a restrained, clean click layer, low studio room tone, subtle bass-enhanced whoosh as the typography appears.  
+@Image1 provides exact product appearance — maintain 100% consistency in shape, vertical orientation, color, logo placement, scroll wheel, and materials. No alterations or distortions. Hyper-real, stable, no warping, no cable visible.

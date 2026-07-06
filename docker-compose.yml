@@ -1,0 +1,13 @@
+services:
+  frames:
+    build: .
+    image: frames:latest
+    ports:
+      - "${PORT:-7860}:7860"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      HOST: 0.0.0.0
+      PORT: "7860"
+    restart: unless-stopped

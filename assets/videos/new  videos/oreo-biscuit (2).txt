@@ -1,0 +1,87 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-06-30T11:34:52.370Z
+Video model: bytedance/seedance-2.0
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Duration: 10 seconds
+API cost (INR): ₹125.50
+Job ID: 0Ehmmq5i07Ouubp9ww9P
+Video source: /api/reel-video/0Ehmmq5i07Ouubp9ww9P
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: Oreo Biscuit
+Target audience: Young shoppers
+Style / aesthetic: ASMR
+Key message: Twist... Lick... Dunk...
+Creative direction: Biscuit flying and falling into a glass of milk with splash.
+Duration (seconds): 10
+Video model: bytedance/seedance-2.0
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Reference image count: 3
+Reference images: 81grYsxH1eL._AC_SL1500_.jpg, 3NIFJ6E7CBFUBCFKNRF65XZNZI.avif, high-poly-3d-oreo-design-3d-model-c237c0062f.webp
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: Biscuit twisting apart in mid-air to reveal cream while both halves stay perfectly aligned and readable | REASON: Complex rotational motion plus maintaining correct cookie geometry and logo detail will distort or fuse the halves | INSTEAD: Keep biscuit whole and rotate it slowly or glide it past camera without separating the layers  
+
+AVOID: Hand performing the full “twist, lick, dunk” ritual in one continuous shot | REASON: Multi-step hand-object manipulation and procedural order often glitch (hand warps, biscuit merges with fingers, cream disappears) | INSTEAD: Imply the ritual abstractly with three simple beats using just the biscuit and milk (e.g., elegant rotation, close cream highlight, then dunk)  
+
+AVOID: Close-up of a tongue clearly licking the cream layer | REASON: Mouth–food interaction and tongue contact create anatomy distortions and uncanny results, especially at macro scale | INSTEAD: Show a creamy highlight or subtle animated shine/sparkle on the filling to suggest “lick” without mouth contact  
+
+AVOID: Biscuit flying through a long complex trajectory (spinning, arcing, bouncing off rim, then dropping into glass) | REASON: Models struggle to maintain consistent position, scale, and orientation over multi-phase motion; cookie may teleport or change size | INSTEAD: Use a short, simple downward motion from just above the glass into the milk, with minimal lateral movement  
+
+AVOID: Highly realistic slow-motion milk splash perfectly wrapping around the biscuit with droplets flying everywhere | REASON: Fluid physics and splash geometry are unreliable; milk may look rubbery, frozen, or intersect badly with the biscuit and glass | INSTEAD: Use a stylized, simplified splash shape or quick white “burst” around the cookie with limited droplet detail  
+
+AVOID: Multiple biscuits flying simultaneously toward the same glass and interacting (colliding, one falls in, others orbit) | REASON: Tracking several moving objects leads to overlaps, blending, and popping artifacts | INSTEAD: Focus on a single hero biscuit, with any additional cookies static in the background or foreground  
+
+AVOID: Biscuit entering milk, submerging, then re-emerging in one shot with milk dripping off | REASON: Object state across fluid interaction often breaks (cookie vanishes, melts into milk, or reappears dry) | INSTEAD: Show the moment just as it hits and begins to sink, then cut to an end frame where it’s partially submerged and stable  
+
+AVOID: Perfectly sharp, readable OREO logo or product name animating in sync with “Twist… Lick… Dunk…” words on screen | REASON: Precise text rendering and brand typography are inconsistent; letters can morph or misspell | INSTEAD: Use a simple, minimal end-card with small, static brand text and rely on VO or implied text rather than animated lettering  
+
+AVOID: Macro close-up of cream layer deforming realistically as it’s twisted or pressed before the dunk | REASON: Material deformation and subtle texture changes can look mushy or inconsistent with earlier frames of the biscuit | INSTEAD: Keep the cream as a clean, stable layer with maybe a lighting change or gentle glint to imply richness  
+
+AVOID: Glass of milk moving dynamically (e.g., sliding across a table, tilting as biscuit falls in) while reflections and liquid level update correctly | REASON: Coordinated motion between container, reflective surface, and fluid level is hard; milk may clip through glass or stay static while glass moves | INSTEAD: Keep the glass stationary and let only the biscuit move, with a simple camera move (zoom or slight pan) for energy  
+
+AVOID: Crowd of young shoppers in
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+10-second premium image-to-video ad. Use @Image1, @Image2, and @Image3 as exact visual references for the Oreo biscuit: keep the round chocolate cookie shape, deep cocoa-brown color, detailed embossed pattern, and clean white creme layer perfectly consistent and undistorted in every frame. Sleek, modern setting aimed at young shoppers: a vibrant royal-blue background with subtle gradient, a glossy white table surface, and a tall, elegant clear glass of cold milk.
+
+[0–3s | Primary action + camera]  
+Start on a dramatic macro hero shot of a single whole Oreo biscuit floating in mid-air above the glossy white surface, slightly angled, slowly rotating in place. Around it, other Oreos from @Image2 form a soft, out-of-focus pattern below, like a premium display. The camera performs a slow, smooth push-in toward the hero biscuit, with shallow depth of field so the foreground cookie is ultra-crisp and tactile: you can see the tiny crumbs, embossed logo pattern, and the perfect white creme edge.
+
+[Lighting / atmosphere]  
+Cool, premium studio lighting: soft key light from top-left, gentle rim light from behind creating a subtle halo around the biscuit, and a slight reflection on the creme. Background glows in deep blue, hinting at nightlife / youth energy. Air feels clean, with a faint, slow-moving milk mist or particles catching the light for cinematic atmosphere.
+
+[On-screen key message – “Twist...”]  
+As the camera nears the floating cookie, the biscuit very subtly begins to separate into two halves already in progress (no visible fingers), drifting a few millimeters apart while remaining aligned, revealing a smooth, untouched layer of creme between them. Over this motion, elegant kinetic typography appears in the lower third: the word “Twist...” in clean, bold white sans-serif letters. The text glides in from the left, slightly tracking with the camera push, then softly fades as we cut.
+
+[3–6s | Second beat – “Lick...”]  
+Cut to a new shot: inside a stylish, softly lit midnight-blue space. The creme from the Oreo now appears as a single, perfectly round disc of white creme gently levitating between the two chocolate halves, which float symmetrically on either side, both in soft focus. The camera executes a slow, vertical rise past the creme, almost like a product beauty pan. To imply “lick” without any mouth, the creme surface shimmers with a silky, glossy ripple of light that sweeps smoothly across it, as if savoring is happening visually. Tiny sparkling highlights glide along the creme’s curve.
+
+[On-screen key message – “Lick...”]  
+As the light ripple travels, the word “Lick...” materializes in flowing, handwritten-style white script directly over the creme, then dissolves into a soft sparkle that transitions us to the next shot. No characters, just pure, stylized suggestion.
+
+[6–10s | Third beat – “Dunk...” + flight + splash]  
+Cut to a polished tabletop wide shot. A tall, crystal-clear glass filled with cold white milk stands center frame on the glossy white surface, strong reflection beneath it. The background now richer electric blue, gradient from deeper at top to lighter near the horizon for a premium ad feel. Our hero Oreo biscuit is already positioned just above the rim of the glass, dead center in frame, perfectly intact and matching @Image1/@Image3 design.  
+
+Action: in smooth slow motion, the Oreo begins a simple, graceful downward glide straight toward the milk, keeping its face visible to camera, with only a gentle spin of a few degrees for dynamism—no complex trajectories. The camera performs a slow, subtle dolly-in to keep the biscuit dominant in frame. As the biscuit meets the surface, create a stylized, sculptural milk splash inspired by @Image3: clean, curved white milk forms rising around the biscuit like frozen waves, minimal droplets, no chaotic fluid. The biscuit remains solid, undistorted, half-visible above the milk.
+
+[On-screen key message – “Dunk...” + subtle product name]  
+As the milk forms wrap elegantly around the biscuit, the word “Dunk...” appears in bold white sans-serif, center-bottom, with a slight upward bounce synced to the splash. Immediately beneath in smaller, more understated type: “Oreo Biscuit”. Text is crisp and legible but does not overpower the visuals.
+
+[Final styling + audio]  
+Hold the final frame for the last second: the Oreo nestled in the stylized milk splash, glass perfectly centered, blue gradient background glowing. Gently animate tiny glints of light along the glass rim and biscuit edge to feel premium and fresh.  
+
+Audio direction: smooth, modern beat with a light bass groove and subtle high-hat for young shoppers, no vocals. Soft whoosh with each cut, a polished “shimmer” sound on the creme ripple, and a clean, satisfying
+
+Note: This prompt was edited manually after the last API-generated version.

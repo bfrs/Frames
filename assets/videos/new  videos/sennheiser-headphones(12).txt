@@ -1,0 +1,84 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T06:47:16.992Z
+Video model: google/veo-3.1
+Format: 16:9 Landscape
+Aspect ratio: 16:9
+Duration: 8 seconds
+API cost (INR): ₹265.60
+Job ID: dsLSKmFWPdbLNC7rwY1T
+Video source: /api/reel-video/dsLSKmFWPdbLNC7rwY1T
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: Sennheiser Headphones
+Target audience: Gen Z
+Style / aesthetic: Neon
+Key message: Unplug from the world
+Creative direction: An indian guy amongst loud street noises, disturbed by which he wears these headphones and instantly disconnects from the noise.
+Duration (seconds): 8
+Video model: google/veo-3.1
+Format: 16:9 Landscape
+Aspect ratio: 16:9
+Reference image count: 1
+Reference images: Sennheiser-Product-Gel0018.webp
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: Multi-beat narrative where we start wide on a chaotic Indian street, then push in, then cut to a close-up as he puts on headphones, then jump to a surreal quiet space — all inside a single 8s i2v clip | REASON: Model struggles with coherent story progression and big scene changes within one generated shot | INSTEAD: Keep to one main environment and imply transition with lighting and subtle background blur/noise changes
+
+AVOID: Detailed street chaos with many vehicles, crowds, vendors, and animated signage all moving around the hero | REASON: Too many interacting entities leads to visual mush, collisions, and temporal flicker | INSTEAD: Suggest “loud street” with a few simplified moving elements (e.g., blurred traffic light streaks, a couple of silhouettes, abstract soundwave graphics)
+
+AVOID: Hero grabbing headphones from around his neck or a bag and smoothly lifting them to his ears in one continuous close-up | REASON: Fine hand-object interaction is often deformed; fingers penetrate or fuse with the headphones | INSTEAD: Start with headphones already in his hands near his head, or cut to them already halfway on
+
+AVOID: Precise animation of the headphones rotating and expanding as he adjusts the headband to fit | REASON: Articulated parts and changing geometry tend to warp or detach | INSTEAD: Keep the headphones’ shape mostly fixed; show only a small, simple motion of moving toward the ears
+
+AVOID: Clear “before and after” audio world building where honking cars, people shouting, and music visibly sync to mouth/vehicle motions, then instantly vanish when headphones go on | REASON: Model can’t truly tie specific sound sources to synchronized visual actions; cuts will feel random | INSTEAD: Use abstract visual representations of noise (vibrating neon lines, jittery light flashes) that calm or fade when headphones are on
+
+AVOID: Extreme close-up of his ears as the headphones’ cushions compress realistically when they touch skin | REASON: Soft-material deformation against skin is hard; likely to produce melting or clipping artifacts | INSTEAD: Use a mid-shot profile where the earcups just meet the sides of his head without visible squish
+
+AVOID: Complex facial performance where he winces in annoyance, then transitions to a subtle, relaxed smile in perfect timing with the moment of “unplugging” | REASON: Fast, nuanced facial expression changes within seconds often cause jittery or inconsistent faces | INSTEAD: Use two clearer expression states with a simple, readable change (e.g., tense neutral → calm closed eyes) and let lighting change sell the shift
+
+AVOID: Literal depiction of “Unplug from the world” where he is shown yanking an audio cable or pulling a visible plug from a noisy environment that powers down | REASON: Tool/cable interaction and cause-effect physics (plug power-off) are unreliable | INSTEAD: Represent “unplug” via a visual metaphor like neon noise patterns snapping off or fading when headphones cover his ears
+
+AVOID: Showcasing the exact Sennheiser logo and product text clearly on the headband or earcups while the hero moves | REASON: Legible moving text and precise logo rendering are weak; letters warp or flicker frame-to-frame | INSTEAD: Keep branding small and mostly static (e.g., side-angle where logo is hinted but not meant to be read)
+
+AVOID: Rapid camera moves (dolly-in from wide street shot to tight close-up on his face) combined with him simultaneously raising the headphones and the background transforming to a neon void | REASON: Multiple large motions plus environment morphing in one shot often break temporal consistency
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+@Image1 provides exact Sennheiser Headphones appearance — maintain 100% consistency in shape, color, logo, and materials.
+
+8s single continuous shot, neon, Gen Z, image-to-video.
+
+Cinematography:
+Begin in a medium shot of an Indian guy in his early 20s, standing still at a street-side bus stop at night. Camera is on a slow, smooth dolly arc from front-left to front-right over the full 8s, always keeping his upper body and the headphones as the hero.
+
+Environment:
+Background is a stylized Indian city street hinted through soft-focus neon billboards, blurred rickshaw silhouettes, and light trails of passing scooters. No dense crowds, just a few abstract silhouettes. Everything is slightly out of focus and semi-abstract so the hero and the headphones remain clean and sharp.
+
+Motion:
+He already holds the @Image1 headphones just beside his head, both hands visible but simple and relaxed. As the camera glides, he gently brings the headphones toward his ears in one smooth, small motion; geometry and shape remain exactly like @Image1, no warping or extension. By mid-shot they are aligned with the sides of his head in profile; by the final seconds they rest naturally over his ears. Keep hand interaction minimal and clean.
+
+Lighting evolution and noise metaphor:
+At start, harsh flickering neon magenta and cyan from the street hit his face and the headphones, with jittery, vibrating neon lines and jagged soundwave graphics pulsing in the blurred background, synced to aggressive street noise. As the headphones approach his ears, these neon noise lines compress and smooth out, flicker slows, and background light trails become long, calm streaks. When the headphones touch his head, the lighting softens into a dreamy, even neon glow in blue and pink, reflections sliding smoothly across the earcups and headband exactly as in @Image1. Depth of field deepens into creamy bokeh; street shapes simplify into a tranquil neon haze.
+
+Expression:
+Start with a tense, slightly stressed neutral face, brows gently furrowed. As the headphones settle on his ears, his eyes close and his features relax into calm contentment. Keep facial change clear and simple, no rapid micro-expressions.
+
+Typography and key message:
+From 2s onward, faint glitchy white text “Unplug from the world” is integrated behind him in the neon haze, vibrating with the noise lines. As sound and visuals calm, the text stabilizes, becomes sharp and centered near the end, hovering beside the headphones for a beat before gently fading.
+
+End-card detail (within same shot, no cut):
+In the final second, as the camera finishes its arc and slightly pushes in, a minimal, small lower-right caption appears: “Sennheiser Headphones” in clean, modern type, subtly lit by the neon glow, not competing with the hero product.
+
+Audio:
+Ambient: layered Indian city night — distant horns, muffled engines, indistinct chatter — stylized and slightly abstract. These sounds start loud, then smoothly low-pass and fade as the headphones reach his ears, replaced by a warm, chill electronic beat with deep bass and soft synth pads. SFX: gentle cloth and plastic rustle as he moves the headphones, a soft, satisfying click or whoosh as they settle on his head, synced to the moment the neon noise lines calm.
+
+Overall:
+Photorealistic materials on the headphones (matte plastics, soft cushions, subtle specular highlights), stable geometry, no distortion, no environment jump cuts. Ultra-smooth camera motion, crisp focus on the headphones throughout, neon color grading, cinematic depth of field, high resolution, no flicker.

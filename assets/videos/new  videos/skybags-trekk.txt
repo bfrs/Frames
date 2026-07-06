@@ -1,0 +1,79 @@
+
+========================================================================
+PROMPT-TO-REEL LAB — GENERATION RECORD
+========================================================================
+Generated at: 2026-07-01T11:03:57.529Z
+Video model: google/veo-3.1
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Duration: 8 seconds
+API cost (INR): ₹265.60
+Job ID: hX98CJ9IaFACvOHMEZPd
+Video source: /api/reel-video/hX98CJ9IaFACvOHMEZPd
+
+========================================================================
+CAMPAIGN SPECIFICATIONS (USER-SELECTED)
+========================================================================
+Product name: Skybags Trekk
+Style / aesthetic: Cinematic
+Initial prompt: A guy climbing a cliff and finally reaching it's peak
+Duration (seconds): 8
+Video model: google/veo-3.1
+Format: 9:16 Reel
+Aspect ratio: 9:16
+Reference image count: 1
+Reference images: Backpack1.webp
+
+========================================================================
+STEERAWAY SCENES (FAILURE RISKS TO AVOID)
+========================================================================
+AVOID: Character free-climbing a vertical rock face in profile with detailed hand and foot placements | REASON: Fine limb–rock contact and body weight shifting on small holds often look floaty or misaligned | INSTEAD: Show the climber already close to the top, mostly silhouetted, with larger obvious ledges and minimal visible hand transitions  
+
+AVOID: Multi-step sequence of clipping/unclipping carabiners or using ropes and harnesses while climbing | REASON: Complex gear interactions and safety equipment frequently merge into the body or rock | INSTEAD: Keep the character apparently unroped or with static gear that doesn’t need to be manipulated  
+
+AVOID: Backpack straps being actively adjusted or buckled mid-climb (tightening chest/waist straps, opening pockets) | REASON: Hand–strap interactions and changing strap lengths tend to warp and jump between frames | INSTEAD: Show the backpack already worn and secure, only moving passively with the climber’s body  
+
+AVOID: Dramatic pull-up over the lip of the cliff with arms, then smoothly standing in one continuous shot | REASON: Models struggle with multi-phase body mechanics across a ledge, causing limbs to teleport or clip through rock | INSTEAD: Cut or transition from a shot of reaching for the top to a separate shot already standing on the summit  
+
+AVOID: Complex camera move circling around the climber as they ascend a steep wall | REASON: Parallax plus changing contact points tends to break depth consistency; limbs may detach from the surface | INSTEAD: Use either a mostly fixed side angle or a gentle upward tilt following the climber, keeping the wall and body relationship stable  
+
+AVOID: Wind dramatically flapping multiple loose backpack straps, hair, and shirt fabric at once near the peak | REASON: Coordinated secondary motion on several small elements often glitches or freezes unnaturally | INSTEAD: Emphasize one or two elements with subtle motion, like the lower part of the backpack shifting slightly with each step  
+
+AVOID: Detailed product text, logo close-up, or readable tagline on the backpack mid-motion | REASON: Moving, legible branding and typography often smear or respell across frames | INSTEAD: Keep the logo small and incidental on the pack, and reserve any product name for a simple static end-card  
+
+AVOID: Wide shot with multiple hikers climbing the same cliff simultaneously | REASON: Several human figures in coordinated motion lead to deformed limbs and inconsistent poses | INSTEAD: Focus on a single climber, maybe with very distant tiny silhouettes of others that barely move  
+
+AVOID: Final beat where the climber removes the backpack, opens it, and takes out gear on the summit | REASON: Sequential object manipulation and bag state changes (zips, openings) are error-prone | INSTEAD: Keep the backpack on the character’s back, perhaps just shifting their shoulders as they look at the view  
+
+GROUND: Climber ascending near the top of the cliff in a side or rear angle | The body leans slightly toward the rock, hips close to the surface, legs pushing upward in short controlled steps; the backpack shifts a little with each movement, lagging half a beat behind the torso; shoes stay firmly planted on visible ledges, with no sliding  
+
+GROUND: Subtle motion of the backpack while the character climbs | The pack appears heavy and snug against the back, bottom edge bouncing a few centimeters with each step; shoulder straps stay taut, not stretching, and the whole mass has a slow, delayed swing when the torso changes direction  
+
+GROUND: Transition from last climb step to standing at the summit | Feet step onto a flatter surface and pause, knees straighten with a small upward rise of the torso; dust and tiny pebbles near the boots remain mostly still, no big sprays; the backpack settles downward slightly as the character comes fully upright  
+
+GROUND: Character taking a few steps forward on the summit plateau | Each footfall causes a brief vertical dip of the hips, then recovery; the backpack’s upper section sways gently side to side with a soft lag; loose fabric of the shirt at the shoulders stretches smoothly over the moving frame without snapping  
+
+GROUND: Character pausing at the peak and looking out over the landscape | Once stopped, large body motion quiets; the backpack slowly comes to rest after a final small sway; if the character slightly turns their upper body, the lower torso remains mostly planted while the pack twists a bit slower than the shoulders, then settles  
+
+GROUND: Gentle ambient motion from breeze at the summit | Only a few elements respond: the edge of the t-shirt sleeve and maybe a small strap near the bottom of the pack move in a soft, periodic flutter, bending in the same direction each time and then relaxing back, without reversing or snapping abruptly
+
+========================================================================
+VIDEO GENERATION PROMPT
+========================================================================
+Climber nears the top of a rugged cliff at golden hour, wearing the exact backpack from @Image1 — preserve its shape, green color, logo, straps, and attached poles perfectly. The body leans toward the rock, hips close, shoes stepping firmly onto clear ledges; each controlled step makes the loaded pack’s bottom edge bounce a few centimeters, then lagging slightly as the torso rises.
+
+Camera: cinematic side angle slowly craning upward with the climber, shallow depth of field, distant valley and hazy mountains emerging below. The shoulder straps stay taut, no stretching; the backpack mass swings slowly with each torso shift, one small strap near the bottom fluttering with a gentle summit breeze.
+
+As the climber reaches a broader rocky lip, feet step onto flatter ground and briefly pause; knees straighten, torso rises a touch. The pack settles downward a bit as the body comes fully upright, then the upper section sways once and quiets. Dust and tiny pebbles by the boots remain mostly still, no big sprays.
+
+Cut to a rear three‑quarter medium shot on the summit plateau: the character takes a few steady steps forward toward an expansive view. Each footfall creates a subtle dip and recovery in the hips; the backpack’s upper part sways side to side with a soft delayed motion, shirt fabric stretching smoothly across the shoulders. Wind brushes only the t‑shirt sleeve edge and one small strap, moving them in a repeated, gentle arc.
+
+The character stops at the peak and gazes over sunlit cliffs and distant sky. Their lower body stays planted while the upper body turns slightly; the pack twists a bit slower than the shoulders, then settles into stillness.
+
+Key message appears as elegant, cinematic typography integrated over the sky next to the character: “Rise With Every Step”. Text drifts in with a soft upward motion and slight blur‑to‑crisp focus, then holds clean and readable.
+
+Final 2 seconds: slow push‑in to a static hero rear shot of the backpack centered in frame, glint of warm rim light tracing its exact seams and buckles. Subtle lens flare, soft atmospheric haze behind.
+
+Audio: muted cliffside wind, distant ambient outdoors, restrained cloth rustle and gear creak; no voice.
+
+On the last frame, unobtrusive end‑card text at bottom corner: “Skybags Trekk”. Ultra‑cinematic, photoreal, stable motion, no distortion.
